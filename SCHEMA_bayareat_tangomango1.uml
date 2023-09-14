@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>e507e8b8-194d-442b-8a59-0ea67f84f65f.SCHEMA:bayareat_tangomango1</OriginalElement>
+  <nodes>
+    <node x="1185.0" y="730.0">e507e8b8-194d-442b-8a59-0ea67f84f65f.TABLE:bayareat_tangomango1.Areas</node>
+    <node x="962.0" y="730.0">e507e8b8-194d-442b-8a59-0ea67f84f65f.TABLE:bayareat_tangomango1.States</node>
+    <node x="0.0" y="730.0">e507e8b8-194d-442b-8a59-0ea67f84f65f.TABLE:bayareat_tangomango1.Venues</node>
+    <node x="226.0" y="0.0">e507e8b8-194d-442b-8a59-0ea67f84f65f.TABLE:bayareat_tangomango1.Events</node>
+    <node x="226.0" y="985.0">e507e8b8-194d-442b-8a59-0ea67f84f65f.TABLE:bayareat_tangomango1.Favorites</node>
+    <node x="763.0" y="730.0">e507e8b8-194d-442b-8a59-0ea67f84f65f.TABLE:bayareat_tangomango1.UserAreas</node>
+    <node x="0.0" y="985.0">e507e8b8-194d-442b-8a59-0ea67f84f65f.TABLE:bayareat_tangomango1.Countries</node>
+    <node x="0.0" y="475.0">e507e8b8-194d-442b-8a59-0ea67f84f65f.TABLE:bayareat_tangomango1.Music</node>
+    <node x="0.0" y="0.0">e507e8b8-194d-442b-8a59-0ea67f84f65f.TABLE:bayareat_tangomango1.Users</node>
+    <node x="580.0" y="0.0">e507e8b8-194d-442b-8a59-0ea67f84f65f.TABLE:bayareat_tangomango1.Directory</node>
+    <node x="257.0" y="730.0">e507e8b8-194d-442b-8a59-0ea67f84f65f.TABLE:bayareat_tangomango1.Info</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="0.7642393655371305" showDependencies="false" x="683.5" y="542.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

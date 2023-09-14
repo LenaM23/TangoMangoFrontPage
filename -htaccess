@@ -1,0 +1,9 @@
+ErrorDocument 404 /404.php
+redirect /sf/ http://yourdomain.com/index.php?show=San_Francisco,CA+Alameda,CA+San_Mateo,CA+Santa_Clara,CA&hide=Contra_Costa,CA+Marin,CA+Santa_Cruz,CA+Monterey,CA
+redirect /sf http://yourdomain.com/index.php?show=San_Francisco,CA+Alameda,CA+San_Mateo,CA+Santa_Clara,CA&hide=Contra_Costa,CA+Marin,CA+Santa_Cruz,CA+Monterey,CA
+redirect /SF/ http://yourdomain.com/index.php?show=San_Francisco,CA+Alameda,CA+San_Mateo,CA+Santa_Clara,CA&hide=Contra_Costa,CA+Marin,CA+Santa_Cruz,CA+Monterey,CA
+redirect /SF http://yourdomain.com/index.php?show=San_Francisco,CA+Alameda,CA+San_Mateo,CA+Santa_Clara,CA&hide=Contra_Costa,CA+Marin,CA+Santa_Cruz,CA+Monterey,CA
+redirect /sd/ http://yourdomain.com/index.php?show=San_Diego,CA&hide=Los_Angeles,CA+Orange,CA+Riverside,CA+San_Bernardino,CA+San_Luis_Obispo,CA+Santa_Barbara,CA+Ventura,CA
+redirect /sd http://yourdomain.com/index.php?show=San_Diego,CA&hide=Los_Angeles,CA+Orange,CA+Riverside,CA+San_Bernardino,CA+San_Luis_Obispo,CA+Santa_Barbara,CA+Ventura,CA
+redirect /SD/ http://yourdomain.com/index.php?show=San_Diego,CA&hide=Los_Angeles,CA+Orange,CA+Riverside,CA+San_Bernardino,CA+San_Luis_Obispo,CA+Santa_Barbara,CA+Ventura,CA
+redirect /SD http://yourdomain.com/index.php?show=San_Diego,CA&hide=Los_Angeles,CA+Orange,CA+Riverside,CA+San_Bernardino,CA+San_Luis_Obispo,CA+Santa_Barbara,CA+Ventura,CA

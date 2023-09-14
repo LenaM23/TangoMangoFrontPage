@@ -1,0 +1,16 @@
+ErrorDocument 404 http://dev.tangomango.org/404.php
+redirect /sf/ http://dev.tangomango.org/index.php?show=San_Francisco,CA+Alameda,CA+San_Mateo,CA+Santa_Clara,CA&hide=Contra_Costa,CA+Marin,CA+Santa_Cruz,CA+Monterey,CA
+redirect /sf http://dev.tangomango.org/index.php?show=San_Francisco,CA+Alameda,CA+San_Mateo,CA+Santa_Clara,CA&hide=Contra_Costa,CA+Marin,CA+Santa_Cruz,CA+Monterey,CA
+redirect /SF/ http://dev.tangomango.org/index.php?show=San_Francisco,CA+Alameda,CA+San_Mateo,CA+Santa_Clara,CA&hide=Contra_Costa,CA+Marin,CA+Santa_Cruz,CA+Monterey,CA
+redirect /SF http://dev.tangomango.org/index.php?show=San_Francisco,CA+Alameda,CA+San_Mateo,CA+Santa_Clara,CA&hide=Contra_Costa,CA+Marin,CA+Santa_Cruz,CA+Monterey,CA
+redirect /sd/ http://dev.tangomango.org/index.php?show=San_Diego,CA&hide=Los_Angeles,CA+Orange,CA+Riverside,CA+San_Bernardino,CA+San_Luis_Obispo,CA+Santa_Barbara,CA+Ventura,CA
+redirect /sd http://dev.tangomango.org/index.php?show=San_Diego,CA&hide=Los_Angeles,CA+Orange,CA+Riverside,CA+San_Bernardino,CA+San_Luis_Obispo,CA+Santa_Barbara,CA+Ventura,CA
+redirect /SD/ http://dev.tangomango.org/index.php?show=San_Diego,CA&hide=Los_Angeles,CA+Orange,CA+Riverside,CA+San_Bernardino,CA+San_Luis_Obispo,CA+Santa_Barbara,CA+Ventura,CA
+redirect /SD http://dev.tangomango.org/index.php?show=San_Diego,CA&hide=Los_Angeles,CA+Orange,CA+Riverside,CA+San_Bernardino,CA+San_Luis_Obispo,CA+Santa_Barbara,CA+Ventura,CA
+# BEGIN 301 redirect from tangomango.org to www.tangomango.org
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI}  [L,R=301]
+</IfModule>
+# END 301 redirect from	tangomango.org to www.tangomango.org
