@@ -22,6 +22,10 @@
 
 		<!--/*Blank Block */ -->
 
+
+
+		
+
 <table border=0 cellpadding=0 cellspacing=0>
 	<tr valign=top>
 		<td width=260 align=center>
@@ -45,7 +49,7 @@
 				<img width=200 height=150 src="media/sandiego.jpg" border=0 style="padding-bottom:8px"><br>Southern & Central<br>California</a>
 		</td>
 	  <td width=260 align=center>
-			<a class=styled href="index.php?show=Philadelphia,PA+Bucks,PA+Delaware,PA+Chester, PA+Montgomery, PA">
+			<a class=styled href="index.php?show=Philadelphia,PA+Bucks,PA+Delaware,PA+Chester,PA+Lehigh,PA+Mercer,PA+Montgomery, PA">
 			<img width=200 height=150 src="media/GreaterPhiladelphia.jpg" border=0 style="padding-bottom:8px"><br>Greater Philadelphia Area</a>
 	  </td>
 		</td>
@@ -59,6 +63,13 @@
 <br>
 <br>
 <br>
+
+<p class="warning">
+	As the facilitators of TangoMango.org, the Bay Area Argentine Tango Association (BAATA)
+	strongly encourages posters to explain their COVID protocols. BAATA has no responsibility
+	as to whether or not the organizer meets those requirements.
+</p>
+
 <?php if(!isset($useremail)):  ?>
 TangoMango is a free listing of Argentine tango events. Click a city above,<br>
 or login below to load your previous settings.<br>
